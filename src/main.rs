@@ -12,9 +12,10 @@ if let Err(e) = read_from_file("./SampleCSVFile_11kb.csv"){
 
 
 
+fn read_from_file(path :&str)->Result<(),Box<dyn Error>>{
 
 
 
-fn read_from_file(path :&String){
+    Ok(())
 
 }

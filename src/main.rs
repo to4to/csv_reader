@@ -1,11 +1,11 @@
 
 use std::error::Error;
-use std::fs::File;
+
 use csv;
 
 
 fn main() {
-if let Err(e) = read_from_file("./SampleCSVFile_11kb.csv"){
+if let Err(e) = read_from_file("./customers.csv"){
     eprintln!("{}",e)
 }
 }
